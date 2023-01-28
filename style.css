@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+
+}
+header {
+    background-color:darkslateblue;    
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.3em;
+    justify-content: space-between;
+    padding-left: 30px;
+    
+}
+.navigation a:hover{
+    color: antiquewhite;
+}
+
+section{
+    padding: 100px 200px;  
+    
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(image/coding3.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;    
+}
+.main h2{
+    color:white;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 10px;
+    
+}
+span{
+    display: inline;
+    font-size: 3em;
+    font-weight: 700;
+    color: white;
+    margin-top: 10px;
+}
+.main h3{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px; 
+}
+.mainbutton{
+    color: darkslateblue;
+    text-decoration: none;
+    background-color: white;
+    padding: 1.1em;
+    font-size: 1.1em;
+    font-weight: 500;
+    display: inline-block;
+    
+    letter-spacing: 1px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    
+    transition: 0.5s ease;    
+}
+.mainbutton:hover{
+    background-color:whitesmoke;
+    transform: scale(1.1)
+}
+.socialicons a{
+    color:white;
+    font-size: 1.7em;
+    justify-content: space-between;
+    padding-right: 30px;
+    transition: 0.7s ease;
+    
+    
+}
+.socialicons a :hover{
+    color:white;
+    font-size: 1.7em;
+    justify-content: space-between;
+    padding-right: 30px;
+    transition: 0.9s ease;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color:darkslateblue;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.card{
+    background-color: darkslateblue;
+    color: white;
+    width: 15.21em;
+    box-shadow: 0 5px 25px;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 15px;
+    transition:0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1)
+   
+}
+.icon{
+    color: white;
+    font-size: 4em;
+    text-align: center;
+}
+.info h3{
+    color:white;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.info{
+    text-align: center;
+}
+.projects{
+    background-color: darkslateblue;
+}
+.projects .content{
+    margin-top: 30px;
+}
+.projects .title{
+    color: white;
+}
+.project-card{
+    border: darkslateblue;
+    background-color: white;
+    border: 1px solid black;
+    min-height: 14em;
+    width: 18.9em;
+    border-radius: 15px;;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-card:hover .project-image{
+    opacity: 0.9;
+}
+.project-image img{
+    width: 100%
+}
+.project-info{
+    padding: 1em;
+}
+.project-category{
+    font-size: 0.9em;
+    color: darkslateblue;;
+}
+.project-title{
+    font-size: 0.9em;
+    display: flex;
+    color: darkslateblue;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.more{
+    text-decoration: none;
+    color: darkslateblue; ;
+}
+.more:hover{
+    color: palegoldenrod;
+    text-decoration: none;
+}
+#cont{
+    margin: 10px;
+}
+#email{
+    padding: 10px;
+}
+.active{
+    font-size: 1.5em;
+    background-color: #000d3c;
+    color: #fff ;
+    border-radius: 15px;
+    margin-right:  10px;
+    
+    transition: 0.9s ease;
+}
+#cards a:hover{
+    font-size: 0.75em;
+    background-color: #fff;
+    color:  #000d3c;
+    border-radius: 15px;
+    margin-right:  10px;
+    
+    transition: 0.9s ease;
+}
